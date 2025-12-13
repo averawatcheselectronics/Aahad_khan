@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avera - Premium Watches and electrnics</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        body{
+            background: #f5f5f5;
+        }
+
+        /* Header */
+        header{
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 25px 10px;
+        }
+
+        header h1{
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        header p{
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        /* Product Section */
+        .products-section{
+            padding: 30px;
+            text-align: center;
+        }
+
+        .products-section h2{
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .product-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .product-card{
+            background: white;
+            width: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .product-card:hover{
+            transform: scale(1.03);
+        }
+
+        .product-card img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card h3{
+            margin: 10px 0;
+            font-size: 22px;
+        }
+
+        .price{
+            font-size: 20px;
+            color: darkgreen;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn{
+            display: inline-block;
+            background: black;
+            color: white;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover{
+            background: #444;
+        }
+
+        footer{
+            margin-top: 40px;
+            background: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Avera</h1>
+        <p>Premium Watches And Electronics Collection</p>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2>Our Watches and Electronics</h2>
+
+        <div class="product-container">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="gold.jpg" alt="Gold Watch">
+                <h3>Royal Gold Casio</h3>
+                <p class="price">₹1300</p>
+
+                <a class="btn"
+                   href="https://wa.me/919076250484?text=Hi%2C%20I%20want%20to%20buy%20the%20Royal%20Gold%20Casio%20Watch%20(₹1300)">
+                    Buy Now
+                </a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="silver.jpg" alt="Silver Watch">
+                <h3>Royal Silver Casio</h3>
+                <p class="price">₹1300</p>
+
+                <a class="btn"
+                   href="https://wa.me/919076250484?text=Hi%2C%20I%20want%20to%20buy%20the%20Royal%20Silver%20Casio%20Watch%20(₹1300)">
+                    Buy Now
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Avera. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
